@@ -2,14 +2,15 @@ package com.company;
 
 public class Zad3 {
 
-    public static int zad3(int n){
-        if (n < 0 || n > 106)  throw new IllegalArgumentException("bad");
+    public static int findGreatestOddDivisorIterative(int n) {
 
-        for (int i = n - 1; i >= 1; i--) {
-            if (n % i == 0 && i % 2 != 0) {
-                return i;
-            }
+
+
+        if (n % 2 != 0) {
+            return n;
         }
-        return 1;
+
+        return findGreatestOddDivisorIterative(n / 2);
+
     }
 }

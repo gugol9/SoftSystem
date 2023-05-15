@@ -16,7 +16,8 @@ public class Main {
 
        // Zad5.zad5();
 
-        Zad3.zad3(105);
+       
+        System.out.println( Zad3.findGreatestOddDivisorIterative(105));
 
 
 
