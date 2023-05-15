@@ -1,0 +1,3 @@
+Adam,Mickiewicz,25,25,25,25,25
+John,Kochanowski,5,10,15,20,25
+Czeslaw,Milosz,0,1,2,3,4
